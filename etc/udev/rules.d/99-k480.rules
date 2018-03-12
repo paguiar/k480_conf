@@ -1,0 +1,1 @@
+SUBSYSTEM=="hidraw", ACTION=="add", SUBSYSTEMS=="bluetooth", ATTRS{address}=="34:88:5d:47:e6:78", RUN+="/home/paguiar/git/k480_conf/k480_conf -d /dev/%k -f on"'
